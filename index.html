@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container auto">
+        <h1>Change Currency</h1>
+        <p class="fs-20 bold">Enter an amount of dollars</p>
+        <div class="dollar mb-20 auto">
+            <input type="text" class="w-full d-block auto border-eee input" placeholder="Amount of dollars">
+            <i class="fa-solid fa-dollar-sign"></i>
+        </div>
+        <p class="fs-20 bold">Enter your currency</p>
+        <div class="change-to mb-20 auto">
+            <input type="text" class="w-full d-block auto border-eee input" placeholder="Enter your currency">
+        </div>
+        <div class="currencies mb-20">
+            <span class="currency d-block fs-16">Amount in <strong class="currency-needed fs-20"></strong> <span class="bold fs-20"></span></span>
+        </div>
+        <div class="calculate">
+            <button class="bold d-block auto border-eee input fs-16">Calculate</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
